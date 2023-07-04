@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Typewriter from "typewriter-effect";
 
 import "./header.scss";
 
@@ -10,14 +10,7 @@ export const Header = () => {
         <h1>Hi, i´m Hugo! 👋</h1>
         <h2>Software Developer</h2>
       </div>
-      <Image
-        className="header-photo"
-        src="/me.png"
-        alt="Me"
-        width={180}
-        height={37}
-        priority
-      />
+      <img className="header-photo" src="./me.png" alt="Me" />
     </div>
   );
 };

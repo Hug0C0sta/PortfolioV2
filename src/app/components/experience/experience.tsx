@@ -4,6 +4,17 @@ import { ExperienceLevel } from "../experienceLevel/experienceLevel";
 
 import "./experience.scss";
 
+const experiences = [
+  { level: 90, image: "./react.png", name: "react" },
+  { level: 85, image: "./js.png", name: "javascript" },
+  { level: 85, image: "./html.png", name: "html" },
+  { level: 85, image: "./css.png", name: "css" },
+  { level: 80, image: "./flutter.png", name: "flutter" },
+  { level: 80, image: "./java.png", name: "java" },
+  { level: 70, image: "./ionic.png", name: "ionic" },
+  { level: 65, image: "./python.png", name: "python" },
+];
+
 export const Experience = () => {
   return (
     <div className="experience">
@@ -15,14 +26,9 @@ export const Experience = () => {
         also developed REST APIs in Java.
       </p>
       <div className="experience-charts">
-        <ExperienceLevel level={90} image="./react.png" name="react" />
-        <ExperienceLevel level={85} image="./js.png" name="javascript" />
-        <ExperienceLevel level={85} image="./html.png" name="html" />
-        <ExperienceLevel level={85} image="./css.png" name="css" />
-        <ExperienceLevel level={80} image="./flutter.png" name="flutter" />
-        <ExperienceLevel level={80} image="./java.png" name="java" />
-        <ExperienceLevel level={70} image="./ionic.png" name="ionic" />
-        <ExperienceLevel level={65} image="./python.png" name="python" />
+        {experiences.map(({ level, image, name }) => (
+          <ExperienceLevel level={level} image={image} name={name} />
+        ))}
       </div>
     </div>
   );

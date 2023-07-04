@@ -39,14 +39,6 @@
         "chunks": [],
         "async": false
       }
-    },
-    "(app-client)/./node_modules/next/dist/client/image-component.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -139,8 +131,8 @@
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/src/app/components/contact/contact.scss": {
-      "id": "(app-client)/./src/app/components/contact/contact.scss",
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/education/education.scss": {
+      "id": "(app-client)/./src/app/components/education/education.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -163,8 +155,8 @@
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/src/app/components/header/header.scss": {
-      "id": "(app-client)/./src/app/components/header/header.scss",
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/contact/contact.scss": {
+      "id": "(app-client)/./src/app/components/contact/contact.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -179,16 +171,8 @@
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/node_modules/next/dist/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/hugocosta/repos/PortfolioV2/node_modules/next/dist/esm/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/header/header.scss": {
+      "id": "(app-client)/./src/app/components/header/header.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

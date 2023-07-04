@@ -1,4 +1,5 @@
 import { Contact } from "./components/contact/contact";
+import { Education } from "./components/education/education";
 import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
 import { Languages } from "./components/languages/languages";
@@ -11,12 +12,7 @@ export default function Home() {
       <Contact />
       <Experience />
       <Languages />
-      <div style={{ backgroundColor: "yellow" }}>
-        <h2>Education</h2>
-        <p>
-          🎓 Computer Science Bachelors Degree - Politécnico de Viana do Castelo
-        </p>
-      </div>
+      <Education />
     </main>
   );
 }
