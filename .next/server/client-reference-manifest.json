@@ -155,8 +155,16 @@
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/src/app/components/languages/languages.scss": {
-      "id": "(app-client)/./src/app/components/languages/languages.scss",
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/contact/contact.scss": {
+      "id": "(app-client)/./src/app/components/contact/contact.scss",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/experience/experience.scss": {
+      "id": "(app-client)/./src/app/components/experience/experience.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -171,8 +179,8 @@
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/src/app/components/contact/contact.scss": {
-      "id": "(app-client)/./src/app/components/contact/contact.scss",
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/languages/languages.scss": {
+      "id": "(app-client)/./src/app/components/languages/languages.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

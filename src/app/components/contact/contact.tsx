@@ -1,21 +1,31 @@
 import React from "react";
 import "./contact.scss";
+import { Git } from "../icons/git";
+import { Insta } from "../icons/insta";
+import { LinkedIn } from "../icons/linkedin";
+import { Twitter } from "../icons/twitter";
+import { Mail } from "../icons/mail";
 
 export const Contact = () => {
   return (
-    <div>
+    <div className="contact">
       <div>
-        <h2>
-          <a href="https://github.com/HugoHugo">Github</a>
-        </h2>
-        <h2>
-          <a href="https://www.linkedin.com/in/hugohugo/">LinkedIn</a>
-        </h2>
-        <h2>
-          <a href="https://twitter.com/HugoHugo">Twitter</a>
-        </h2>
+        <a href="https://github.com/HugoHugo">
+          <Git />
+        </a>
+        <a href="https://github.com/HugoHugo">
+          <Insta />
+        </a>
+        <a href="https://github.com/HugoHugo">
+          <LinkedIn />
+        </a>
+        <a href="https://github.com/HugoHugo">
+          <Twitter />
+        </a>
       </div>
-      <button>contact me </button>
+      <button>
+        CONTACT ME <Mail />
+      </button>
     </div>
   );
 };

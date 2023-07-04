@@ -1,0 +1,47 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    a {
+        height: 50px;
+        width: 50px;
+        border: 1px solid white;
+        border-radius: 100%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+    }
+    button {
+        font-size: 20px;
+        font-weight: 300;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 55px;
+        border-radius: 24px;
+        border: 0px;
+        color: white;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
