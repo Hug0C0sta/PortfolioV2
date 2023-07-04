@@ -139,6 +139,14 @@
       ],
       "async": false
     },
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/contact/contact.scss": {
+      "id": "(app-client)/./src/app/components/contact/contact.scss",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/hugocosta/repos/PortfolioV2/src/app/components/experience/experience.scss": {
       "id": "(app-client)/./src/app/components/experience/experience.scss",
       "name": "*",
@@ -147,8 +155,8 @@
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/src/app/components/contact/contact.scss": {
-      "id": "(app-client)/./src/app/components/contact/contact.scss",
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/experienceLevel/experienceLevel.scss": {
+      "id": "(app-client)/./src/app/components/experienceLevel/experienceLevel.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

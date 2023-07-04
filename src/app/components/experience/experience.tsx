@@ -15,56 +15,14 @@ export const Experience = () => {
         also developed REST APIs in Java.
       </p>
       <div className="experience-charts">
-        <div className="experience-level">
-          <Image src="/java.png" alt="Java" width={30} height={30} priority />
-          <div>
-            <ExperienceLevel level={50} />
-          </div>
-        </div>
-        <div className="experience-level">
-          <Image
-            src="/js.png"
-            alt="JavaScript"
-            width={30}
-            height={30}
-            priority
-          />
-          <div>
-            <ExperienceLevel level={40} />
-          </div>
-        </div>
-        <div className="experience-level">
-          <Image src="/react.png" alt="React" width={30} height={30} priority />
-          <div>
-            <ExperienceLevel level={60} />
-          </div>
-        </div>
-        <div className="experience-level">
-          <Image
-            style={{ width: "30px", height: "30px" }}
-            src="/html.png"
-            alt="HTML"
-            width={30}
-            height={30}
-            priority
-          />
-          <div>
-            <ExperienceLevel level={60} />
-          </div>
-        </div>
-        <div className="experience-level">
-          <Image
-            style={{ width: "30px", height: "30px" }}
-            src="/css.png"
-            alt="CSS"
-            width={30}
-            height={30}
-            priority
-          />
-          <div>
-            <ExperienceLevel level={60} />
-          </div>
-        </div>
+        <ExperienceLevel level={90} image="./react.png" name="react" />
+        <ExperienceLevel level={85} image="./js.png" name="javascript" />
+        <ExperienceLevel level={85} image="./html.png" name="html" />
+        <ExperienceLevel level={85} image="./css.png" name="css" />
+        <ExperienceLevel level={80} image="./flutter.png" name="flutter" />
+        <ExperienceLevel level={80} image="./java.png" name="java" />
+        <ExperienceLevel level={70} image="./ionic.png" name="ionic" />
+        <ExperienceLevel level={65} image="./python.png" name="python" />
       </div>
     </div>
   );
