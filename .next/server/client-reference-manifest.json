@@ -131,22 +131,6 @@
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/node_modules/next/dist/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/hugocosta/repos/PortfolioV2/node_modules/next/dist/esm/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/hugocosta/repos/PortfolioV2/src/app/styles/home.scss": {
       "id": "(app-client)/./src/app/styles/home.scss",
       "name": "*",
@@ -155,16 +139,16 @@
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/src/app/components/contact/contact.scss": {
-      "id": "(app-client)/./src/app/components/contact/contact.scss",
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/experience/experience.scss": {
+      "id": "(app-client)/./src/app/components/experience/experience.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/hugocosta/repos/PortfolioV2/src/app/components/experience/experience.scss": {
-      "id": "(app-client)/./src/app/components/experience/experience.scss",
+    "/Users/hugocosta/repos/PortfolioV2/src/app/components/contact/contact.scss": {
+      "id": "(app-client)/./src/app/components/contact/contact.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -181,6 +165,22 @@
     },
     "/Users/hugocosta/repos/PortfolioV2/src/app/components/languages/languages.scss": {
       "id": "(app-client)/./src/app/components/languages/languages.scss",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/hugocosta/repos/PortfolioV2/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/hugocosta/repos/PortfolioV2/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
