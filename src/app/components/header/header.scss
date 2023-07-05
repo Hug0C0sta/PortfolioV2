@@ -21,7 +21,7 @@
 
 .typed-out {
   overflow: hidden;
-  border-right: .15em solid orange;
+  border-right: 0.15em solid orange;
   white-space: nowrap;
   animation: typing 4s forwards;
   font-size: 1.6rem;
@@ -35,7 +35,6 @@
     width: calc(100% - 120px);
   }
 }
-
 
 .header-photo {
   width: 180px;
