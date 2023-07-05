@@ -4,6 +4,8 @@ import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
 import { Languages } from "./components/languages/languages";
 import "./styles/home.scss";
+import { Navigation } from "@/app/components/navigation/navigation";
+import { Projects } from "@/app/components/projects/projects";
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
       <Experience />
       <Languages />
       <Education />
+      <Projects />
     </main>
   );
 }
