@@ -1,15 +1,19 @@
 .education {
-    grid-area: education;
+  grid-area: education;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+
+  &__course {
+    gap: 4px;
     display: flex;
-    flex-direction: column;
-    gap: 24px;
-    &__course {
-        gap: 4px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        p {
-            text-align: left;
-        }
+    flex-direction: row;
+    align-items: center;
+
+    p {
+      text-align: left;
     }
+
+  }
 }
