@@ -24,6 +24,10 @@ $box-height: 24px;
     background-size: 180% 180%;
     animation: gradient-animation 3s ease infinite,
       width-growth 1s linear forwards;
+    @media (min-width: 768px) {
+      animation: gradient-animation 3s ease infinite,
+        width-growth 3s linear forwards;
+    }
   }
 
   @keyframes width-growth {

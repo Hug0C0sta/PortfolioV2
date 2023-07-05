@@ -1,6 +1,7 @@
 "use client";
 import "./header.scss";
 import { useEffect, useRef } from "react";
+import Typed from "react-typed";
 
 export const Header = () => {
   const myRef = useRef(null);
@@ -20,7 +21,13 @@ export const Header = () => {
   return (
     <div className="header hidden" ref={myRef}>
       <div>
-        <h1 className="typed-out">Hi, i´m Hugo! 👋</h1>
+        <Typed
+          className="typed"
+          strings={["Hi, i´m Hugo! 👋", "Welcome!"]}
+          typeSpeed={120}
+          backSpeed={140}
+          loop
+        />
         <h2>Software Developer</h2>
       </div>
       <div className="header__photo_div">

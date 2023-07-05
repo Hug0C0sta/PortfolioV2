@@ -3,9 +3,12 @@
   grid-template-rows: repeat(5, auto);
   grid-template-areas: "header" "contact" "experience" "languages" "education";
   gap: 24px;
-  @media (min-width: 1100px) {
+  @media (min-width: 768px) {
     grid-template-columns: 65% auto;
     grid-template-rows: fit-content(100%);
     grid-template-areas: "header languages" "experience education" "empty contact";
+    .experience {
+      grid-row: 2/4;
+    }
   }
 }

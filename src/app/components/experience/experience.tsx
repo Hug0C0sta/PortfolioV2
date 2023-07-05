@@ -41,7 +41,7 @@ export const Experience = () => {
       </p>
       <div className="experience__charts">
         {experiences.map(({ level, image, name }) => (
-          <ExperienceLevel level={level} image={image} name={name} />
+          <ExperienceLevel key={name} level={level} image={image} name={name} />
         ))}
       </div>
     </div>
