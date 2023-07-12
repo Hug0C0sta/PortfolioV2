@@ -1,0 +1,10 @@
+.projectsDesktop {
+  display: none;
+  grid-area: projectsDesktop;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: black;
+  }
+}
