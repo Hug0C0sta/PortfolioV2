@@ -1,10 +1,47 @@
-.projectsDesktop {
-  display: none;
-  grid-area: projectsDesktop;
-  @media (min-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    background-color: black;
-  }
-}
+    .projectsDesktop {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        @media (min-width: 768px) {
+            .teste {
+                position: relative;
+                width: 320px;
+                height: 195px;
+            }
+        }
+        grid-area: projectsDesktop;
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 24px;
+        }
+        &__card {
+            width: 320px;
+            height: 195px;
+            img {}
+            &__content {
+                width: 320px;
+                height: 195px;
+                position: absolute;
+                background: var(--bg-color);
+                opacity: 0;
+                visibility: hidden;
+                -webkit-transition: visibility 0s, opacity 0.5s linear;
+                transition: visibility 0s, opacity 0.5s linear;
+            }
+            &__image:hover {
+                cursor: pointer;
+            }
+            &__card:hover &__content {
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
+                // text-align: center;
+                width: 320px;
+                height: 195px;
+                padding: 8px 15px;
+                visibility: visible;
+                opacity: 0.9;
+            }
+        }
+    }

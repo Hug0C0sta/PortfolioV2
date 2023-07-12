@@ -12,15 +12,21 @@
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
+    "bear-react-carousel": "^4.0.9",
+    "embla-carousel": "^8.0.0-rc09",
+    "embla-carousel-react": "^8.0.0-rc09",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.8",
+    "framer-motion": "^10.12.18",
     "install": "^0.13.0",
     "next": "^13.4.8",
     "npm": "^9.7.2",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
+    "react-native-snap-carousel": "^4.0.0-beta.6",
     "react-typed": "^1.2.0",
     "sass": "^1.63.6",
+    "swiper": "^10.0.4",
     "typescript": "5.1.6"
   }
 }

@@ -23,7 +23,6 @@ body {
   display: flex;
   @media (min-width: 768px) {
     width: 80%;
-    overflow: hidden;
     margin: 0 auto;
   }
 }
@@ -95,6 +94,14 @@ p {
 .hidden {
   opacity: 0;
   transition: all 2.5s;
+  @media (min-width: 768px) {
+    transition: all 3.5s;
+  }
+}
+
+.hidden-slower {
+  opacity: 0;
+  transition: all 3s;
   @media (min-width: 768px) {
     transition: all 3.5s;
   }
