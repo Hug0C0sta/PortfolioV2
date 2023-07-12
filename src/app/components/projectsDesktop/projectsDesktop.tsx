@@ -42,16 +42,16 @@ export const ProjectsDesktop = () => {
   return (
     <div className="projectsDesktop hidden" ref={myRef}>
       <h3>Projects</h3>
-      <div className="projectsDesktop__container">
+      <div className="projectsDesktopcontainer">
         {projects.map((project) => (
           <div
-            className="projectsDesktop__card"
+            className="projectsDesktopcard"
             onClick={() => openLink(project.link)}
           >
-            <div className="teste">
+            <div className="projectsDesktopimage">
               <img src={project.image} alt={project.title} />
             </div>
-            <div className="projectsDesktop__content">
+            <div className="projectsDesktopcontent">
               <p>{project.description}</p>
             </div>
           </div>

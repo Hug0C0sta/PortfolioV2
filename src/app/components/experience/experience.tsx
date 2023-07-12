@@ -36,8 +36,8 @@ export const Experience = () => {
       <p>
         During my degree, I was always more interested in the front-end part,
         which led to doing more work in this area. <br />I used technologies
-        like HTML, CSS, JavaScript, Ionic, Flutter and React. In addition, I
-        also developed REST APIs in Java.
+        like HTML, CSS, JavaScript, Ionic, Flutter and React. I also developed
+        some back-end for example: REST APIs in Java using Spring Boot.
       </p>
       <div className="experience__charts">
         {experiences.map(({ level, image, name }) => (
